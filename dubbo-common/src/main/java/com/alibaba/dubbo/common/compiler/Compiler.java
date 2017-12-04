@@ -34,5 +34,7 @@ public interface Compiler {
      * @return Compiled class
      */
     Class<?> compile(String code, ClassLoader classLoader);
+    
+    int test123；
 
 }
